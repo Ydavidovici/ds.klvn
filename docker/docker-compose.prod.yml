@@ -9,4 +9,4 @@ services:
       # mount the static build output into nginx's html dir
       - ../apps/ds-frontend/public:/usr/share/nginx/html:ro
       # your custom nginx config
-      - ../nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ../nginx/davidovicisoftware.com.conf:/etc/nginx/conf.d/davidovicisoftware.com.conf:ro
